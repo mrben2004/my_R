@@ -30,5 +30,5 @@ pollutionmean <- function(directory, pollutant, id=1:332){
         }
         total_means <- total_means / length(id)
         return(total_means)
-
 }
+
